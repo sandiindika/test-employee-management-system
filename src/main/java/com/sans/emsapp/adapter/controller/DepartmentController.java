@@ -56,7 +56,7 @@ public class DepartmentController {
             @RequestParam(defaultValue = "0") int page,
             @RequestParam(defaultValue = "10") int size) {
 
-        logger.info("Accessed Endpoint: " + APIEndpoint.DEPARTMENT_ENDPOINT + " to GET All Department");
+        logger.info("Accessed Endpoint: " + APIEndpoint.DEPARTMENT_ENDPOINT + " to GET All Departments");
         Sort sort = Sort.by("name");
         Pageable pageable = PageRequest.of(page, size, sort);
 

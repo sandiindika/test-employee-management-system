@@ -43,7 +43,7 @@ public class Employee {
     @NotNull
     private Long salary;
 
-    private boolean active = true;
+    private boolean active = Boolean.TRUE;
 
     @ManyToOne
     @JoinColumn(name = "position_id", nullable = false)

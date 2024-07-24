@@ -4,4 +4,5 @@ public class APIEndpoint {
 
     public static final String POSITION_ENDPOINT = "/api/v1/position";
     public static final String DEPARTMENT_ENDPOINT = "/api/v1/department";
+    public static final String EMPLOYEE_ENDPOINT = "/api/v1/employee";
 }
